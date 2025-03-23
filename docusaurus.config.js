@@ -10,7 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Sleptonium',
   tagline: 'My collection of articles on Tech, AI, Science, Financial engineering and more',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://sleptonium.github.io',
@@ -76,7 +77,7 @@ const config = {
         title: 'Sleptonium',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           {

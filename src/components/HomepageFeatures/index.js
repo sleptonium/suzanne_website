@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'AI',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
         The AI section is dedicated to the AI projects that we are working on. 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Tech',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
         Our favourite <code>code</code> and design articles are collected here.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Science',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
         Science is in our DNA. We share our favourite science articles here.
@@ -36,8 +36,11 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      {/* <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
+      </div> */}
+      <div className="text--center">
+        <img className={styles.featureSvg} src={Svg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
