@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Sleptonium',
+  tagline: 'My collection of articles on Tech, AI, Science, Financial engineering and more',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Sleptonium',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -81,14 +81,26 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'AI',
+            position: 'left',
+            label: 'AI',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'Tech',
+            position: 'left',
+            label: 'Tech',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Science',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/sleptonium/suzanne_website',
-            label: 'GitHub',
+            href: 'mailto:invest@sleptonium.co.uk',
+            label: 'Invest',
             position: 'right',
           },
         ],
@@ -100,7 +112,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Sleptonium',
                 to: '/docs/intro',
               },
             ],
@@ -109,16 +121,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/sleptonium',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'X',
+                href: 'https://x.com/sleptonium',
               },
             ],
           },
@@ -136,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sleptonium Inc, Stelth mode.  Investment offers only.`,
       },
       prism: {
         theme: prismThemes.github,

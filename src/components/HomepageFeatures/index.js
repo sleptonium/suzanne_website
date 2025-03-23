@@ -4,32 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'AI',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The AI section is dedicated to the AI projects that we are working on. 
+        Key papers and training material is reviewed and shared here.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Tech',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Our favourite <code>code</code> and design articles are collected here.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Science',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Science is in our DNA. We share our favourite science articles here.
       </>
     ),
   },
@@ -54,6 +52,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
+        
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
