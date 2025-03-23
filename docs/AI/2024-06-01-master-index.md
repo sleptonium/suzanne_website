@@ -134,7 +134,7 @@ Google
 
 * github [mistral AI MegaBlocks](https://github.com/mistralai/megablocks-public)
 * Hugging Face [MOE](https://huggingface.co/blog/moe)
-* [aman.ai](aman.ai) Comprehensive catalogue of cources, papers, links to learn about GenAI and more. 
+* [aman.ai](https://aman.ai) Comprehensive catalogue of cources, papers, links to learn about GenAI and more. 
 This catalog of NLP Primers focuses on important topics such as:
 
 * aman.ai - file in topics
