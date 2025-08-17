@@ -1,17 +1,13 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+peter:
+  name: Peter Coyle
+  title: Tech Lead at Sleptonium
+  url: https://www.linkedin.com/in/peter-coyle-1b1b571/
+  image_url: /img/me2.jpg
+
 
 yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
+  name: Sarah Walker
+  title: Inteligence Analyst at Sleptonium
   url: https://github.com/yangshun
   image_url: https://github.com/yangshun.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
