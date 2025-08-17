@@ -94,11 +94,17 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'Science',
             position: 'left',
             label: 'Science',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'Finance',
+            position: 'left',
+            label: 'Finance',
+          },
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'mailto:invest@sleptonium.co.uk',
             label: 'Invest',
@@ -145,7 +151,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Sleptonium Inc, Stelth mode.  Investment offers only.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sleptonium Inc, Stelth mode. `,
       },
       prism: {
         theme: prismThemes.github,

@@ -31,6 +31,15 @@ const FeatureList = [
       </>
     ),
   },
+    {
+    title: 'Finance',
+    Svg: require('@site/static/img/logo.jpg').default,
+    description: (
+      <>
+        Fiance, risk and quant modelling.
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
