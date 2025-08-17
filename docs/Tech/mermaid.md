@@ -1,4 +1,7 @@
 
+# Mermaid
+
+Just a collection of mermaid diagrams for easy reference.
 
 ```mermaid
 graph TD;

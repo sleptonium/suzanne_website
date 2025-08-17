@@ -1,7 +1,7 @@
 peter:
-  name: Peter Coyle
+  name: Staff Writer
   title: Tech Lead at Sleptonium
-  url: https://www.linkedin.com/in/peter-coyle-1b1b571/
+  #url: https://www.linkedin.com/in/peter-coyle-1b1b571/
   image_url: /img/me2.jpg
 
 
