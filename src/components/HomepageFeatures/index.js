@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
-        The AI section is dedicated to the AI projects that we are working on. 
-        Key papers and training material is reviewed and shared here.
+        GenAI, Reinforcement Learning, LLMs, and more.
       </>
     ),
   },
@@ -18,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
-        Our favourite <code>code</code> and design articles are collected here.
+        From <code>code</code> to system design.
       </>
     ),
   },
@@ -27,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
-        Science is in our DNA. We share our favourite science articles here.
+        Science is in our DNA.
       </>
     ),
   },
@@ -36,7 +35,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.jpg').default,
     description: (
       <>
-        Fiance, risk and quant modelling.
+        Pricing, Risk and Quant modelling.
       </>
     ),
   },

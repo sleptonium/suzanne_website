@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Sleptonium',
-  tagline: 'My collection of articles on Tech, AI, Science, Financial engineering and more',
+  tagline: 'Articles on Tech, AI, Science, Financial Engineering and more',
   //favicon: 'img/favicon.ico',
   favicon: 'img/logo.png',
 
