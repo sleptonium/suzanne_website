@@ -1,4 +1,5 @@
 
+
 # Mermaid
 
 Just a collection of mermaid diagrams for easy reference.
@@ -15,11 +16,11 @@ graph TD;
 pie title NETFLIX
          "Time spent looking for movie" : 90
          "Time spent watching it" : 10
-         ```
+```
 
 
-         ```mermaid
-         sequenceDiagram
+```mermaid
+sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
     Bob--x Alice: I am good thanks!
@@ -28,10 +29,9 @@ pie title NETFLIX
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-    ```
+```
 
-
-    ```mermaid
+```mermaid
     graph TB
     sq[Square shape] --> ci((Circle shape))
 
@@ -53,7 +53,7 @@ pie title NETFLIX
      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
      class sq,e green
      class di orange
-     ```
+```
 
 ```mermaid
      gitGraph:
@@ -69,7 +69,7 @@ pie title NETFLIX
     commit
     branch b2
     commit
-    ```
+```
 
 ```mermaid
     quadrantChart
@@ -87,4 +87,29 @@ pie title NETFLIX
     Campaign E: [0.40, 0.34]
     Campaign F: [0.35, 0.78]
 
+```
+
+[Blcok Diagrams](https://docs.mermaidchart.com/mermaid-oss/syntax/block.html#adjusting-widths)
+
+```mermaid
+
+block-beta
+  columns 3
+  Start(("Start")) space:2
+  down<[" "]>(down) space:2
+  Decision{{"Make Decision"}} right<["Yes"]>(right) Process1["Process A"]
+  downAgain<["No"]>(down) space r3<["Done"]>(down)
+  Process2["Process B"] r2<["Done"]>(right) End(("End"))
+
+  style Start fill:#969;
+  style End fill:#696;
+
+```
+
+```mermaid
+block-beta
+  block
+    columns 1
+    a["A label"] b c d
+  end
 ```

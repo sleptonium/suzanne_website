@@ -14,3 +14,47 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+habits:
+  label: Self Help
+  permalink: /self-help
+  description: Life hacks and self improvement
+code:
+  label: code
+  permalink: /code
+  description: Software engineering, programming, best practices and more
+AI:
+  label: AI
+  permalink: /ai
+  description: Artificial Intelligence, machine learning, agents and more
+network:
+  label: network
+  permalink: /network
+  description: Network engineering, observability, monitoring and more
+cyber:
+  label: cyber
+  permalink: /cyber
+  description: Cyber security, infosec, blue team, red team and more
+python:
+  label: python
+  permalink: /python
+  description: Python programming, best practices, tips and more
+maker:
+  label: maker
+  permalink: /maker
+  description: Maker projects, Raspberry Pi, microcontrollers and more
+pi:
+  label: pi
+  permalink: /pi
+  description: Raspberry Pi projects, tutorials and more 
+agents:
+  label: agents
+  permalink: /agents
+  description: AI agents, multi-agent systems and more
+mcp:
+  label: mcp
+  permalink: /mcp
+  description:  Model Context Protocol and more
+security:
+  label: security
+  permalink: /security
+  description: Software security, application security and more

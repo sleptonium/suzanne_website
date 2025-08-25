@@ -1,0 +1,17 @@
+{
+      "MD033": {
+        "allowed_elements": [
+            "br",
+            "summary",
+        "details",
+        "table",
+        "tr",
+        "td",
+        "th",
+        "tbody",
+        "thead",
+        "tfoot" 
+        ]
+      },
+      "MD013": { "line_length": 120 }
+}

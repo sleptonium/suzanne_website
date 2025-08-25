@@ -1,9 +1,14 @@
-peter:
+bean:
   name: Staff Writer
-  title: Tech Lead at Sleptonium
+  title: Alpha Geek
   #url: https://www.linkedin.com/in/peter-coyle-1b1b571/
-  image_url: /img/me2.jpg
+  image_url: /img/bean2.png
 
+boff:
+  name: Staff Writer
+  title: Alpha Geek
+  #url: https://www.linkedin.com/in/peter-coyle-1b1b571/
+  image_url: /img/bean2.png
 
 yangshun:
   name: Sarah Walker
