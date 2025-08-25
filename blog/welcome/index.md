@@ -1,8 +1,8 @@
 ---
 slug: welcome
 title: Welcome
-authors: [peter]
-tags: [AI, Code]
+authors: [boff]
+tags: [AI, code]
 ---
 
-Welcome, here you will find a collection of topics I find interesting. If you find any of this useful do let me know.
+Welcome to my space, here you will find a collection of things that have interested me. Caveat emptor.
