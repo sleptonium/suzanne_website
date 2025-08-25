@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'AI',
-    Svg: require('@site/static/img/logo.jpg').default,
+    Svg: require('@site/static/img/ai_crop.png').default,
     description: (
       <>
         GenAI, Reinforcement Learning, LLMs, and more.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Tech',
-    Svg: require('@site/static/img/logo.jpg').default,
+    Svg: require('@site/static/img/code_crop.png').default,
     description: (
       <>
         From <code>code</code> to system design.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Science',
-    Svg: require('@site/static/img/logo.jpg').default,
+    Svg: require('@site/static/img/boff.png').default,
     description: (
       <>
         Science is in our DNA.
@@ -32,7 +32,7 @@ const FeatureList = [
   },
     {
     title: 'Finance',
-    Svg: require('@site/static/img/logo.jpg').default,
+    Svg: require('@site/static/img/bean.png').default,
     description: (
       <>
         Pricing, Risk and Quant modelling.

@@ -11,7 +11,7 @@ const config = {
   title: 'Sleptonium',
   tagline: 'Articles on Tech, AI, Science, Financial Engineering and more',
   //favicon: 'img/favicon.ico',
-  favicon: 'img/logo.png',
+  favicon: 'img/boff.png',
 
   // Set the production url of your site here
   url: 'https://sleptonium.github.io',
@@ -104,7 +104,7 @@ const config = {
             position: 'left',
             label: 'Finance',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/blog', label: 'Notes', position: 'right'},
           {
             href: 'mailto:invest@sleptonium.co.uk',
             label: 'Invest',
@@ -141,7 +141,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Notes',
                 to: '/blog',
               },
               {
