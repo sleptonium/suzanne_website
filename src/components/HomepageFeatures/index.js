@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'AI',
-    Svg: require('@site/static/img/ai_crop.png').default,
+    Svg: require('@site/static/img/ai.jpeg').default,
     description: (
       <>
         GenAI, Reinforcement Learning, LLMs, and more.
