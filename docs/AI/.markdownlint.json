@@ -13,5 +13,7 @@
         "tfoot" 
         ]
       },
-      "MD013": { "line_length": 120 }
+       "MD013": { "line_length": 500,
+       "tables": false,
+       "code_blocks": false}
 }

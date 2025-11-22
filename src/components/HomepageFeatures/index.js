@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Tech',
-    Svg: require('@site/static/img/code_crop.png').default,
+    Svg: require('@site/static/img/code.jpeg').default,
     description: (
       <>
         From <code>code</code> to system design.
@@ -30,7 +30,7 @@ const FeatureList = [
       </>
     ),
   },
-    {
+  {
     title: 'Finance',
     Svg: require('@site/static/img/bean.png').default,
     description: (
@@ -41,7 +41,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       {/* <div className="text--center">
@@ -63,7 +63,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-        
+
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

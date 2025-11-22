@@ -100,3 +100,4 @@ Other stuff
 * [TWINT - Twitter Intelligence Tool](https://github.com/twintproject/twint) scraping tweets from X. Not maintained
 * The Rise of Chief AI Officer - The [CAIO](https://www.kdnuggets.com/the-rise-of-chief-ai-officer) role
 * [FastAPI](https://datascientest.com/en/fastapi-everything-you-need-to-know-about-the-most-widely-used-python-web-framework-for-machine-learning) for ML
+* [Authentik](https://goauthentik.io/) IAM and identity
