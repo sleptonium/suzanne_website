@@ -4,12 +4,12 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Sleptonium',
-  tagline: 'Articles on Tech, AI, Science, Financial Engineering and more',
+  tagline: 'Tech, AI, Science, Financial Engineering and more',
   //favicon: 'img/favicon.ico',
   favicon: 'img/boff.png',
 
@@ -30,8 +30,8 @@ const config = {
 
   // Mermaid
   markdown: {
-    mermaid: true, 
-    },
+    mermaid: true,
+  },
   themes: ['@docusaurus/theme-mermaid'],
 
   // Even if you don't use internationalization, you can use this field to set
@@ -104,7 +104,7 @@ const config = {
             position: 'left',
             label: 'Finance',
           },
-          {to: '/blog', label: 'Notes', position: 'right'},
+          { to: '/blog', label: 'Notes', position: 'right' },
           {
             href: 'mailto:invest@sleptonium.co.uk',
             label: 'Invest',
