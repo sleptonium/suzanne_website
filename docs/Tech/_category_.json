@@ -2,7 +2,7 @@
   "label": "Tech",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Interesting Tech links and notes"
+    "type": "doc",
+    "id": "index"
   }
 }
