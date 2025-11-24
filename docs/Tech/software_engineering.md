@@ -9,6 +9,8 @@
 
 ## JavaScript
 
+Updated [blog posts](https://www.lydiahallie.com) from lydia hallie.
+
 * [JavaScript Visualized: Event Loop](https://lnkd.in/gVBuzDsg)
 * [JavaScript Visualized: Hoisting](https://lnkd.in/gJcTMmT3)
 * [JavaScript Visualized: Scope (Chain)](https://lnkd.in/gEjUXsXu)
