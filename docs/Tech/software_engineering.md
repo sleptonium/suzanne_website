@@ -24,7 +24,6 @@
 * [Setting up Python Projects: Part III](https://link.medium.com/LWepXO8Ckzb)
 * github [TheAlgorithms Python](https://github.com/TheAlgorithms/Python)
 [9 Subtle Tricks To Make Your Python Code Much Faster](https://medium.com/techtofreedom/9-subtle-tricks-to-make-your-python-code-much-faster-50be6dd69a30)
-* medium [Say Goodbye to Loops in Python, and Welcome Vectorization](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e8b0172b9581)
 * [The Python Decorator That Supercharges Developer Experience](https://pub.towardsai.net/the-python-decorator-that-supercharges-developer-experience-78b3fe7f1682)
 * medium [WordClouds with Python](https://medium.com/mlearning-ai/wordclouds-with-python-c287887acc8b)
 * [FastAPI](https://fastapi.tiangolo.com/tutorial/)
